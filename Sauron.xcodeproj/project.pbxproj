@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		D8CD727919526CDD00E30B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD727819526CDD00E30B08 /* main.m */; };
 		D8CD727C19526CDD00E30B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD727B19526CDD00E30B08 /* AppDelegate.m */; };
-		D8CD727F19526CDD00E30B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD727E19526CDD00E30B08 /* ViewController.m */; };
 		D8CD728219526CDD00E30B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CD728019526CDD00E30B08 /* Main.storyboard */; };
 		D8CD728419526CDD00E30B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CD728319526CDD00E30B08 /* Images.xcassets */; };
 		D8CD729019526CDD00E30B08 /* SauronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD728F19526CDD00E30B08 /* SauronTests.m */; };
+		D8CD729F195275EB00E30B08 /* CaptureVideoPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD729E195275EB00E30B08 /* CaptureVideoPreviewView.m */; };
+		D8CD72A41952912300E30B08 /* CaptureController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD72A31952912300E30B08 /* CaptureController.m */; };
+		D8CD72A719529D0400E30B08 /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD72A619529D0400E30B08 /* CaptureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,17 @@
 		D8CD727819526CDD00E30B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8CD727A19526CDD00E30B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8CD727B19526CDD00E30B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8CD727D19526CDD00E30B08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8CD727E19526CDD00E30B08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8CD728119526CDD00E30B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8CD728319526CDD00E30B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8CD728919526CDD00E30B08 /* SauronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SauronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8CD728E19526CDD00E30B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CD728F19526CDD00E30B08 /* SauronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SauronTests.m; sourceTree = "<group>"; };
+		D8CD729D195275EB00E30B08 /* CaptureVideoPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureVideoPreviewView.h; sourceTree = "<group>"; };
+		D8CD729E195275EB00E30B08 /* CaptureVideoPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureVideoPreviewView.m; sourceTree = "<group>"; };
+		D8CD72A21952912300E30B08 /* CaptureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureController.h; sourceTree = "<group>"; };
+		D8CD72A31952912300E30B08 /* CaptureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureController.m; sourceTree = "<group>"; };
+		D8CD72A519529D0400E30B08 /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		D8CD72A619529D0400E30B08 /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,9 @@
 		D8CD727519526CDD00E30B08 /* Sauron */ = {
 			isa = PBXGroup;
 			children = (
-				D8CD727A19526CDD00E30B08 /* AppDelegate.h */,
-				D8CD727B19526CDD00E30B08 /* AppDelegate.m */,
-				D8CD727D19526CDD00E30B08 /* ViewController.h */,
-				D8CD727E19526CDD00E30B08 /* ViewController.m */,
-				D8CD728019526CDD00E30B08 /* Main.storyboard */,
-				D8CD728319526CDD00E30B08 /* Images.xcassets */,
+				D8CD72A11952760300E30B08 /* Classes */,
+				D8CD729C1952752900E30B08 /* Controllers */,
+				D8CD72A0195275EF00E30B08 /* Views */,
 				D8CD727619526CDD00E30B08 /* Supporting Files */,
 			);
 			path = Sauron;
@@ -93,6 +96,7 @@
 		D8CD727619526CDD00E30B08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8CD728319526CDD00E30B08 /* Images.xcassets */,
 				D8CD727719526CDD00E30B08 /* Info.plist */,
 				D8CD727819526CDD00E30B08 /* main.m */,
 			);
@@ -114,6 +118,36 @@
 				D8CD728E19526CDD00E30B08 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8CD729C1952752900E30B08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD72A21952912300E30B08 /* CaptureController.h */,
+				D8CD72A31952912300E30B08 /* CaptureController.m */,
+				D8CD728019526CDD00E30B08 /* Main.storyboard */,
+				D8CD72A519529D0400E30B08 /* CaptureViewController.h */,
+				D8CD72A619529D0400E30B08 /* CaptureViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D8CD72A0195275EF00E30B08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD729D195275EB00E30B08 /* CaptureVideoPreviewView.h */,
+				D8CD729E195275EB00E30B08 /* CaptureVideoPreviewView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D8CD72A11952760300E30B08 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8CD727A19526CDD00E30B08 /* AppDelegate.h */,
+				D8CD727B19526CDD00E30B08 /* AppDelegate.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8CD727F19526CDD00E30B08 /* ViewController.m in Sources */,
+				D8CD72A41952912300E30B08 /* CaptureController.m in Sources */,
+				D8CD729F195275EB00E30B08 /* CaptureVideoPreviewView.m in Sources */,
 				D8CD727C19526CDD00E30B08 /* AppDelegate.m in Sources */,
 				D8CD727919526CDD00E30B08 /* main.m in Sources */,
+				D8CD72A719529D0400E30B08 /* CaptureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +440,7 @@
 				D8CD729519526CDD00E30B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8CD729619526CDD00E30B08 /* Build configuration list for PBXNativeTarget "SauronTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +449,7 @@
 				D8CD729819526CDD00E30B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
